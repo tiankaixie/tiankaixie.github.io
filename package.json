@@ -1,7 +1,7 @@
 {
     "title": "Resume",
-    "name": "startbootstrap-resume",
-    "version": "6.0.1",
+    "name": "tiankaixie-resume",
+    "version": "1.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js",
         "predeploy": "yarn run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d dist"
     },
     "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
     "keywords": [
@@ -24,18 +24,11 @@
         "template"
     ],
     "homepage": "http://tiankaixie.me",
-    "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-resume/issues",
-        "email": "feedback@startbootstrap.com"
-    },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (http://davidmiller.io/)"
-    ],
+    "author": "Tiankai Xie",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-resume.git"
+        "url": "https://github.com/xietiankai/xietiankai.github.io.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^1.2.30",

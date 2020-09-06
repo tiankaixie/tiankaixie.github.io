@@ -1,7 +1,7 @@
 /*!
-    * Start Bootstrap - Resume v6.0.1 (http://tiankaixie.me)
-    * Copyright 2013-2020 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
+    * Start Bootstrap - Resume v1.0.0 (http://tiankaixie.me)
+    * Copyright 2013-2020 Tiankai Xie
+    * Licensed under MIT (https://github.com/StartBootstrap/tiankaixie-resume/blob/master/LICENSE)
     */
     (function ($) {
     "use strict"; // Start of use strict
